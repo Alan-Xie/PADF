@@ -1,5 +1,5 @@
 # Property-oriented Design Framework for Energetic Materials
-Property-oriented Design Framework for Energetic Materials (PDFEM) can quickly design new energetic compounds with desired property <br>based on limited-scale dataset labeled.
+Property-oriented Design Framework for Energetic Materials (PDFEM) can quickly design new energetic compounds with desired property based on limited-scale dataset labeled.
 
 ## Prerequisites
 This package requires:
@@ -19,5 +19,5 @@ Before utilizing the optimizer to recommend candidates from the unexplored searc
 on the initial dataset, as presented in 'Code/Trade-off'.
 
 ### Iteration
-Based on the combination of the machine learning model and the optimizer, PDFEM starts to iteratively recommend candidate samples <br>from the search space. 
+Based on the combination of the machine learning model and the optimizer, PDFEM starts to iteratively recommend candidate samples from the search space. 
 'Code/iteration_1' represents the first iteration of PDFEM utilizing SVR.lin/Trade-off coupled with SOB+Estate descriptors.

@@ -12,7 +12,8 @@ This package requires:
 The implementation of PADF begins with the construction of the search space by means of `Code/get_searchspace.ipynb`, `Data/parent rings.xlsx` and `Data/substituents.xlsx`.
 
 ### Train a machine learning model
-The package provides the training process of SVR.lin as an example in `Code/SVR.lin.ipynb`. The descriptors used in PADF are organized in `Code/descriptors.py`.
+The package provides the training process of SVR.lin as an example in `Code/SVR.lin.ipynb`. The descriptors used in PADF are organized in `Code/descriptors.py`. You can name
+your data as "initial dataset.xlsx" and use this dataset to train the machine learning model.
 
 ### Construct an optimizer
 Before utilizing the optimizer to recommend candidates from the unexplored search space, it's necessary to investigate the searching efficiency of the optimizer on the initial dataset, as presented in `Code/trade-off.ipynb`.

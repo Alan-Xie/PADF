@@ -10,9 +10,11 @@ This package requires:
 ## Usage
 ### Construct a search sapce
 The implementation of PADF begins with the construction of the search space by means of `Code/get_searchspace.ipynb`, `Data/parent rings.xlsx` and `Data/substituents.xlsx`.
+Note that this package represents an example of applying PADF in the energetic materials. When you use PADF to discover other types of materials, you may have to change the
+parent rings and substituents.
 
 ### Train a machine learning model
-The package provides the training process of SVR.lin as an example in `Code/SVR.lin.ipynb`. The descriptors used in PADF are organized in `Code/descriptors.py`. You can name
+The training process of SVR.lin is shown as an example in `Code/SVR.lin.ipynb`. The descriptors used in PADF are organized in `Code/descriptors.py`. You can name
 your data as "initial dataset.xlsx" and use this dataset to train the machine learning model.
 
 ### Construct an optimizer

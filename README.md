@@ -14,8 +14,7 @@ Note that this package represents an example of applying PADF in the energetic m
 parent rings and substituents.
 
 ### Train a machine learning model
-The training process of SVR.lin is shown as an example in `Code/SVR.lin.ipynb`. The descriptors used in PADF are organized in `Code/descriptors.py`. The chemical structures
-and descriptor matrix of two classic explosives HMX and RDX are provided in `Data/HMX&RDX.tif` and `Data/descriptor matrix for HMX and RDX.xlsx`, respectively.
+The training process of SVR.lin is shown as an example in `Code/SVR.lin.ipynb`. The descriptors used in PADF are organized in `Code/descriptors.py`.
 You can name your data as "initial dataset.xlsx" and use this dataset to train the machine learning model.
 
 ### Construct an optimizer

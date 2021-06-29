@@ -1,2 +1,5 @@
 # Property-oriented Adaptive Design Framework
 Property-oriented Adaptive Design Framework (PADF) can quickly design new energetic compounds with desired property based on limited-scale dataset labeled.
+
+### Descriptors
+The descriptors used in PADF are organized in `Code/descriptors.py`.

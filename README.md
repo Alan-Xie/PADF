@@ -6,7 +6,7 @@ The descriptors (SOB, ECFP, E-state and CDS) used in PADF are organized in `Code
 
 ### Prerequisites
 This package requires:
-* Python 3
-* Numpy
+* python 3
+* numpy
 * rdkit
-* Scikit-learn
+* scikit-learn
